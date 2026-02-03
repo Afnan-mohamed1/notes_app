@@ -3,7 +3,9 @@ import 'package:flutter/rendering.dart';
 
 
 class Searchicon extends StatelessWidget {
-  const Searchicon({super.key});
+  const Searchicon({super.key, required this.icon});
+
+  final IconData icon ;
 
   @override
   Widget build(BuildContext context) {
@@ -14,8 +16,7 @@ class Searchicon extends StatelessWidget {
         borderRadius: BorderRadius.circular(24),
       ),
       child:Center(
-        child: Icon(Icons.search,
-        ),
+        child: Icon(icon,size: 40,),
       ) ,
     );
   }

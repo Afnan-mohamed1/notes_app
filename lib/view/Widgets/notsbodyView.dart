@@ -14,7 +14,8 @@ class notsbody extends StatelessWidget {
       child: Column(
           children: [
             SizedBox(height: 50,),
-            Customappbar(),
+            Customappbar(title: 'Notes',icon: Icons.search_sharp,),
+
             Expanded(
                 child: listView()
             ),

@@ -26,14 +26,14 @@ class Noteitem extends StatelessWidget {
              title: Text('Welcome',style: TextStyle(color: Colors.black,fontSize: 30),),
              subtitle: Padding(
                padding: const EdgeInsets.only(top: 8.0,left: 12),
-               child: Text('enjoy :)',style: TextStyle(color: Colors.black.withOpacity(.9),fontSize: 20),),
+               child: Text('enjoy :)',style: TextStyle(color: Colors.black.withValues(alpha: .9),fontSize: 20),),
              ),
              trailing: IconButton(onPressed: (){}, icon: Icon(Icons.delete,size: 35,)),
            ),
       
             Padding(
               padding: const EdgeInsets.only(right: 8),
-              child: Text('oct 2020',style: TextStyle(color: Colors.black.withOpacity(.7),fontSize: 20),),
+              child: Text('oct 2020',style: TextStyle(color: Colors.black.withValues(alpha: .7),fontSize: 20),),
             ),
           ],
         ),

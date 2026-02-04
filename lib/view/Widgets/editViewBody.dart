@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:notes_app/view/Widgets/CustomAppBar.dart';
 
 import 'Customtextfield.dart';
-import 'SearchIcon.dart';
 
 
 class editbody extends StatelessWidget {

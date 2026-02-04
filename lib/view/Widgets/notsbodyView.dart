@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:notes_app/view/Widgets/listViewbuild.dart';
 
 import 'CustomAppBar.dart';
-import 'NoteItem.dart';
 
 class notsbody extends StatelessWidget {
   const notsbody({super.key});
